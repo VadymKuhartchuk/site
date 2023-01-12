@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Debian</title>
+</head>
+<body>
+    
+    <header class="header" id="navigation">
+    <div class="container">
+        <nav class="header-nav">
+            <img src="./img/header/header-logo.png" class="header-logo" alt="logo">
+            <ul class="nav-list">
+                <li class="list-item "><a href="./index.html" class="list-link">Домашня</a>
+                <li class="list-item"><a href="./debian.html" class="list-link active-page">Debian</a></li>
+                <li class="list-item"><a href="./ubuntu.html" class="list-link">Ubuntu</a></li>
+                <li class="list-item"><a href="./windows.html" class="list-link">Windows Server</a></li>
+            </ul>
+            <button class="dark-mode-btn">
+                <img src="./img/header/Sun.svg" alt="Light mode" class="dark-mode-btn-icon">
+                <img src="./img/header/Moon.svg" alt="Dark mode" class="dark-mode-btn-icon">
+            </button>
+        </nav>
+    </div>
+    
+    </header>
+
+    <main>
+        <div class="button-scroll">
+            <a href="#navigation"><img src="./img/arrow.png" alt="arrow"></a>
+        </div>
+
+        <section class="header-block">
+            <div class="container">
+                <div class="header-block-row">
+                    <div class="header-block-content">
+                        <div class="header-title-block">
+                            <h1>Операційна система Debian</h1>
+                        </div>
+                        <div class="header-text-block">
+                            <p>Що таке операційна система Debian? Її історія створення,переваги та недоліки, випуски</p>
+                        </div>
+
+                        <div class="button-block">
+                            <a href="#tabs-navigation" class="button">Відправитись</a>
+                        </div>
+                    </div>
+                    
+                    <div class="block-img section-img">
+                        <img src="./img/debian/debian-logo.png" alt="debian">         
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="tabs" id="tabs-navigation">
+            <div class="container">
+                <div class="tabs__nav tabs-nav">
+                    <div class="tabs-nav__item is-active" data-tab-name="tab-1">Debian</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-2">Історія</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-3">Переваги та недоліки</div>
+                    <div class="tabs-nav__item" data-tab-name="tab-4">Випуски</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tab tab-1 is-active" >
+            <div class="container">
+                <div class="section-title-block">
+                    <h2>Debian</h2>
+                </div>
+
+                <div class="section-content-wrapper">
+                    <div class="section-text-block">
+                        <p>
+                            Debian — комп'ютерна операційна система, основний дистрибутив якої складається тільки з вільного програмного забезпечення (main-секції архіву Debian). Популярний та впливовий дистрибутив GNU/Linux. Багатоцільова операційна система, що використовується: настільними комп'ютерами, лептопами, серверами, вбудованими системами. Існують проєкти на основі ядер: Debian GNU/Hurd, Debian GNU/kFreeBSD, Debian GNU/NetBSD. Debian відомий суворою[сумнівно — обговорити] відданістю філософії Unix та вільному програмному забезпеченню. ОС портована на 9 архітектур серед яких, окрім типових архітектур x86 та x86-64, є архітектури ARM та MIPS (які використовують переважно у вбудованих системах); архітектура s390x, використовується мейнфреймами серії IBM System z.
+                        </p>
+                    </div>
+
+                    <div class="block-img section-img">
+                        <img src="./img/debian/logo-debian.png" alt="debian-main">         
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tab tab-2">
+            <div class="container">
+                <div class="section-title-block">
+                    <h2>Історія проєкту</h2>
+                </div>
+
+                <div class="full-text-block">
+                    <p>
+                        Вперше дистрибутив Debian анонсував Іан Мердок, тоді студент Університету Пердью, 16 серпня 1993 року. На початку Мердок назвав свою систему «Debian Linux Release». Назва «Debian» була утворена від перших літер його імені та імені тодішньої дівчини (згодом — дружини, з якою він розлучився у січні 2008) Дебри: Debra + Ian (/dɛbˈiːjən/). Він мав на меті створити новий дистрибутив, котрий буде відкрито розроблятись, як Linux та GNU, старанно і сумлінно збиратись та якісно супроводжуватись і підтримуватись. На початку проєкт розвивався повільно, перші версії 0.9.х були випущені у 1994 та 1995 роках. Перші портування на інші архітектури розпочались у 1995 році. Реліз 1.х здійснено у 1996 році. Тоді ж Брюс Перенс (Bruce Perens) змінив Яна Мердока з посади лідера проєкту. В цьому ж році один з розробників, Іен Шуйслер (Ean Schuessler) запропонував укласти суспільну угоду між проєктом та його користувачами. За результатами обговорення у поштовій розсилці було укладено Соціальну Угоду та Посібник по вільних програмах Debian [Архівовано 22 січня 2014 у Wayback Machine.], котрі описували базові вимоги до розробників дистрибутиву. Брюс Перенс також ініціював створення офіційної організації «Програми в інтересах суспільства», котра б опікувалась проєктом, вирішувала фінансові та юридичні питання.
+                    </p>
+                </div>
+
+                <div class="section-content-wrapper">
+                    <div class="block-img section-img">
+                        <img src="./img/debian/history-debian.png" alt="features">         
+                    </div>
+                    <div class="section-text-block">
+                        <p>
+                            У 1998 році, перед випуском версії 2.0, першої, яка базувалась на бібліотеці glibc, Брюс Перенс залишив проєкт. Учасники провели вибори на посаду нового лідера та випустили два нових релізи гілки 2.х, кожен з яких містив все більше пакунків та портів на різні архітектури. В цей час було розроблено АРТ та започатковано перший проєкт на ядрі, відмінному від Лінукс — Debian GNU/Hurd. У 1999 році було запущено перші дистрибутиви на основі Debian — Corel Linux та Stormix's Storm Linux, які нині більше не підтримуються. Наприкінці 2000 року, проєкт отримав значні зміни в архівуванні та релізах стабільної версії. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="full-text-block">
+                    <p>
+                        Реорганізовано репозиторії програм, введено сховища пакунків («package tools») та створено тестову гілку у вигляді тестового майданчика для запланованого випуску.
+                        В цьому ж році розробники почали проводити конференції під назвою Дебконф (Debconf), на яких обговорюються задачі для розробників та технічних користувачів. У версії 4.0.x вперше за історію проєкту з дистрибутиву було вилучено архітектуру] — m68k.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="tab tab-3">
+            <div class="container">
+                <div class="section-title-block">
+                    <h2>Переваги та недоліки</h2>
+                </div>
+
+                <div class="full-text-block">
+                    <p>
+                        У складі Debian понад 51 000 скомпонованих пакунків.[коли?] Оскільки стабільний випуск проходить ретельне та всебічне тестування, система та пакунки в ній є доволі надійними. Але оскільки тестування займає багато часу, то одним з недоліків Debian є певна застарілість програм стабільної збірки. Між випусками 3.0 та 3.1 минуло майже 3 роки. І хоча випуск Debian 4.0 було анонсовано на грудень 2006 року (18 місяців після випуску 3.1), насправді він відбувся лише 8 квітня 2007 року. Цей недолік частково виправляється наявністю т. зв. бекпортованих пакунків (оновлених версій програм, скомпільованих у стабільному середовищі й для стабільного середовища), доступних в числі іншого з майданчиків backports.org і apt-get.org. Проте, в деяких випадках ці пакунки погано інтегруються в систему, викликаючи можливі клопоти з поновленням чи конфлікти з іншими програмами. <br><br>
+                        Тестова гілка часто містить оновлене програмне забезпечення, котре значно стабільніше, аніж можна було б подумати, дивлячись на назву гілки. Проте одразу після нового випуску в ній відбуваються значні зміни. Іншим зауваженням є те, що деякі документи та програми недоступні в офіційній системі Debian, оскільки вони не відповідають вимогам Проєкту.<br><br>
+                        Документи, що випущені під GNU Free Documentation License з недоступними для змін секціями, розглядаються проєктом як не повністю вільні й поміщаються до секції non-free. У таких випадках програми чи документи можна отримати від третіх сторін або ж з секції non-free файлосховищ Debian, або ж відшукати іншу програму, що відповідає вашим вимогам та є вільною. Наприклад, власницький Адоб Акробат-читач (Adobe Acrobat reader) не постачається з Debian, але, по-перше, вам доступні інші програми для читання документів PDF, а по-друге, сам Acrobat reader можна завантажити з вебсайту фірми-виробника і встановити вручну. Дехто критикує проєкт за те включення до секції non-free деяких власницьких програм замість того, щоб повністю відмовитись від їх використання. Раніше Debian включав вільні пакунки з невільними компонентами до головної збірки, проте зараз відділяє деякі програми, як, наприклад, власницькі драйвери пристроїв у ядрі Лінукс. <br><br>
+                        Наприкінці 2000 року в проєкті зроблено значні зміни в управлінні архівами та випусками, реорганізовано процеси за допомогою нових «сховищ пакунків» (package pools) і створено тестову (testing) гілку. Також, у цьому році розпочали проведення щорічної конференції під назвою Debconf для розробників та користувачів Debian.
+                    </p>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <section class="tab tab-4">
+            <div class="container">
+                <div class="section-title-block">
+                    <h2>Випуски</h2>
+                </div>
+
+                <div class="section-content-wrapper">
+                    <div class="section-text-block">
+                        <p>
+                            Станом на серпень 2020 року стабільним випуском є версія 10 «Buster». Після виходу нової версії, попередню стабільну помічають, як «стару стабільну» (oldstable) — у даний час нею є версія 9 «Stretch». Для stable і oldstable версій виходять періодичні оновлення, які, маркуються, наприклад, 10.1. Команда безпеки проєкту Debian (Debian security team) випускає оновлення безпеки для останнього стабільного випуску, а також для попереднього стабільного випуску (oldstable) протягом одного року після виходу нового. Наприклад, версія 4.0 «Etch» вийшла у квітні 2007 року, це означає, що попередня стабільна версія 3.1 «Sarge» буде підтримуватися до квітня 2008 року. Для виконання більшості задач, суворо рекомендують використовувати лише систему, для якої регулярно виходять оновлення безпеки. 
+                        </p>
+                    </div>
+
+                    <div class="block-img">
+                        <img src="./img/debian/seria-img.png" alt="seria">         
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="share">
+            <div class="container">
+                <div class="share-block">
+                    <div class="share-content">
+                        <div class="section-title-block">
+                            <h2>Почати працювати з Debian</h2>
+                        </div>
+                        
+                        <a href="https://www.debian.org/" class="button share-btn" target="_blank">Перейти</a>
+        
+                        <div class="share-elements-block">
+                            <img src="./img/debian/right-el.svg" alt="" class="share-img-element share-right-element">
+                            <img src="./img/debian/left-el.svg" alt="" class="share-img-element share-left-element">
+                            <img src="./img/debian/big-el.svg" alt="" class="share-img-element share-big-element">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-text-block">
+                    <a href="./index.html" class="footer-logo"><img src="./img/footer/footer-logo.png" alt="logo"></a>
+                    <div class="footer-text-block">
+                        <p class="footer-text">Що таке серверні операційні системи?Особливості будови,та їх різновиди</p>
+                    </div>
+                </div>
+    
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-list-item"><strong class="footer-title">Серверні ОС</strong></li>
+                    <li class="footer-nav-list-item"><a href="/debian.html" class="footer-text">Debian</a></li>
+                    <li class="footer-nav-list-item"><a href="/ubuntu.html" class="footer-text">Ubuntu</a></li>
+                    <li class="footer-nav-list-item"><a href="/windows.html" class="footer-text">Windows Server</a></li>
+                </ul>
+    
+                <div class="social">
+                    <h3 class="footer-title">Контакти</h3>
+                    <ul class="social-list">
+                        <li class="footer-list-item"><a href="https://www.instagram.com/vadym_kuchartchuk/" class="social-link" target="_blank"><img src="./img/footer/instagram.png" alt=""></a></li>
+                        <li class="footer-list-item"><a href="https://t.me/vadym_kuhartchuk" class="social-link" target="_blank"><img src="./img/footer/telegram.png" alt=""></a></li>
+                        <li class="footer-list-item"><a href="https://twitter.com/generalstaffua/with_replies" class="social-link" target="_blank"><img src="./img/footer/twitter.png" alt=""></a></li>
+    
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
+
+
+
